@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon-cv-en-ligne</title>
+    <style>
+        table,
+        th,
+        td{
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body>
-    <fieldset>
-        <legend><h1>Curriculum Vitae</h1></legend>
-        <!-- <h1>Curriculum Vitae</h1> -->
+        <h1>Curriculum Vitae</h1>
         <h2>Identité</h2>
         
                 <ul>
@@ -18,19 +25,30 @@
                     <li>Postnom : Wabetonana</li>
                     <li>Nationalité : Congolaise(Rdcongo)</li>
                     <li>Etat civil : Célibataire</li>
-                    <li>Téléphone : <a href="tel:+243 826177680">+243 826177680</a></li>
+                    <li>Téléphone : <a href="tel:+243826177680">+243 826177680</a></li>
                     <li>Email : <a href="mailto:muhunganimichee07@gmail.com">muhunganimichee07@gmail.com</a></li>
-                    <li> <a href="contact/contact.html"><button>Me contacter</button></a></li>
+                    <li> <a href="contact/contact.html">Me contacter</a></li>
                 </ul>
 
             <h2>Etudes faites</h2>
-            
-                <ul>
-                    <li>2010 : Certificat d'étude primaire au complexe scolaire LISANGA</li>
-                    <li>2015 : Diplome d'etat à l'institut MBWETETE</li>
-                    <li>2017-2020 : Cycle de graduat à l'Institut Superieur d'Informatique Chaminade (ISIC)</li>
-                </ul>
-            
+            <table>
+                    <tr>
+                        <th>Année</th>
+                        <th>Diplome</th>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>Certificat d'étude primaire au complexe scolaire LISANGA</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>Diplome d'etat à l'institut MBWETETE</td>
+                    </tr>
+                    <tr>
+                        <td>2017-2020</td>
+                        <td>Cycle de graduat à l'Institut Superieur d'Informatique Chaminade (ISIC)</td>
+                    </tr>
+            </table>
             
                 <h2>Formation</h2>
                 <ul>
@@ -40,14 +58,38 @@
             
             
                 <h2>Competences</h2>
-                <ul>
-                    <li>HTML <progress value="80" max="100"></progress></li>
-                    <li>CSS et BOOTSTRAP<progress value="10" max="100"></progress></li>
-                    <li>JavaScript <progress value="5" max="100"></progress></li>
-                    <li>PHP et SQL (MysQl) <progress value="30" max="100"></progress></li>
-                    <li>Access, Excel et Word <progress value="80" max="100"></progress></li>
-                    <li>LARAVEL <progress value="50" max="100"></progress></li>
-                </ul>
+                <table>
+                    <tr>
+                        <th>
+                            Libellé
+                        </th>
+                        <th>Niveau</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td><progress value="80" max="100"></progress></td>
+                    </tr>
+                    <tr>
+                        <td>CSS et BOOTSTRAP</td>
+                        <td><progress value="10" max="100"></progress></td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td><progress value="5" max="100"></progress></td>
+                    </tr>
+                    <tr>
+                        <td>PHP et SQL (MysQl)</td>
+                        <td><progress value="30" max="100"></progress></td>
+                    </tr>
+                    <tr>
+                        <td>Access, Excel et Word</td>
+                        <td><progress value="80" max="100"></progress></td>
+                    </tr>
+                    <tr>
+                        <td>LARAVEL</td>
+                        <td><progress value="50" max="100"></progress></td>
+                    </tr>
+                </table>
             
                 <h2>Langues</h2>
                     <ol>
@@ -56,8 +98,6 @@
                         <li>Lingala</li>
                     </ol>
         <p><b>Je certifie sur mon honneur que les renseignements fournis ci-haut sont sinceres et exacts.</b> </p>
-        <p>Fait à Kinshasa le <input type="date" name="" id=""></p>
-
-    </fieldset>
+        <p>Fait à Kinshasa le 06 mars 2023</p>
 </body>
 </html>
